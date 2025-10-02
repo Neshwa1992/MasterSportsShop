@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\About.html" />
+    <None Include="wwwroot\images\hero-sports.jpg" />
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\services.html" />
+    <None Include="wwwroot\Style.css" />
+  </ItemGroup>
+
 </Project>
