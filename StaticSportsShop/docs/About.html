@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | Masters Sports Shop</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <style>
+        .about-banner {
+            background: url('images/about-banner.jpg') center center/cover no-repeat;
+            height: 50vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+            .about-banner::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+            }
+
+            .about-banner h1 {
+                position: relative;
+                z-index: 1;
+            }
+
+        .section-title {
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #111;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Masters Sports</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Banner -->
+    <header class="about-banner">
+        <h1 class="display-4">About Masters Sports Shop</h1>
+    </header>
+
+    <!-- About Content -->
+    <section class="container py-5">
+        <h2 class="section-title text-center">Who We Are</h2>
+        <p class="lead text-center">
+            At Masters Sports Shop, we are passionate about helping athletes, enthusiasts, and teams find the perfect gear. Whether you're a professional player or just getting started, our selection of high-quality sports equipment and apparel is built to perform.
+        </p>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h4>Our Mission</h4>
+                <p>
+                    To inspire and equip sports lovers with world-class gear that enhances performance, comfort, and confidence. We believe in quality, trust, and great service.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h4>Why Choose Us?</h4>
+                <ul>
+                    <li>Over 20 years of industry experience</li>
+                    <li>Wide range of sports categories (Cricket, Football, Fitness, etc.)</li>
+                    <li>Top brands and affordable options</li>
+                    <li>Trusted by schools, academies, and professional players</li>
+                    <li>Fast service and friendly support</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Masters Sports Shop. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
