@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <None Include="wwwroot\About.html" />
+    <None Include="wwwroot\events.html" />
     <None Include="wwwroot\images\hero-sports.jpg" />
     <None Include="wwwroot\index.html" />
     <None Include="wwwroot\services.html" />
