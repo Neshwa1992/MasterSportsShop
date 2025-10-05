@@ -8,125 +8,90 @@
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <style>
-        .event-card img {
-            height: 200px;
-            object-fit: cover;
-        }
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-        header {
-            background: url('images/events-hero.jpg') center center/cover no-repeat;
-            height: 60vh;
-            display: flex;
-            align-items: center;
-            color: white;
-            position: relative;
-            text-align: center;
-        }
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet" />
 
-            header::before {
-                content: "";
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                background: rgba(0, 0, 0, 0.6);
-            }
-
-        .header-content {
-            z-index: 1;
-            margin: auto;
-        }
-
-        footer {
-            background-color: #111;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-    </style>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Style.css" />
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">Masters Sports</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
-                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div id="navbar-placeholder"></div>
 
-    <!-- Hero -->
-    <header>
-        <div class="container header-content">
-            <h1 class="display-4">Events by Masters Sports</h1>
-            <p class="lead">From sports tournaments to vibrant parties and weddings, we bring energy and excitement to your events.</p>
+    <!-- Events Banner -->
+    <header class="services-banner">
+        <div class="container text-center">
+            <h1 class="display-5 fw-bold">Events by Masters Sports</h1>
         </div>
     </header>
 
     <!-- Events Section -->
     <section class="py-5">
         <div class="container text-center">
-            <h2 class="mb-5">Our Event Services</h2>
+            <h2 class="mb-5 text-gold">Our Event Services</h2>
             <div class="row g-4 justify-content-center">
 
-                <!-- Party Event -->
+                <!-- Sports-themed Parties -->
                 <div class="col-md-4">
-                    <div class="card event-card">
-                        <img src="images/party.jpg" class="card-img-top" alt="Party Event">
-                        <div class="card-body">
-                            <h5 class="card-title">Sports-themed Parties</h5>
-                            <p class="card-text">Celebrate birthdays or achievements with high-energy sports-themed parties. Custom decor, games, and entertainment provided.</p>
-                        </div>
+                    <div class="card-like h-100 text-start">
+                        <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=800&q=80" class="img-fluid mb-3 rounded" alt="Sports-themed Parties">
+                        <h3>Sports-themed Parties</h3>
+                        <p>Celebrate birthdays or achievements with high-energy sports-themed parties. Custom decor, games, and entertainment provided.</p>
                     </div>
                 </div>
 
-                <!-- Marriage Event -->
+                <!-- Sporty Weddings -->
                 <div class="col-md-4">
-                    <div class="card event-card">
-                        <img src="images/marriage.jpg" class="card-img-top" alt="Marriage Event">
-                        <div class="card-body">
-                            <h5 class="card-title">Sporty Weddings</h5>
-                            <p class="card-text">Add a unique sporty twist to your wedding with themed setups, activities, and fun elements for guests of all ages.</p>
-                        </div>
+                    <div class="card-like h-100 text-start">
+                        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" class="img-fluid mb-3 rounded" alt="Sporty Weddings">
+                        <h3>Sporty Weddings</h3>
+                        <p>Add a unique sporty twist to your wedding with themed setups, activities, and fun elements for guests of all ages.</p>
                     </div>
                 </div>
 
-                <!-- Tournament Event -->
+                <!-- Tournaments -->
                 <div class="col-md-4">
-                    <div class="card event-card">
-                        <img src="images/tournament.jpg" class="card-img-top" alt="Tournament Event">
-                        <div class="card-body">
-                            <h5 class="card-title">Tournaments</h5>
-                            <p class="card-text">We organize professional-level tournaments for cricket, football, and more. Complete with logistics, branding, and officiating.</p>
-                        </div>
+                    <div class="card-like h-100 text-start">
+                        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80" class="img-fluid mb-3 rounded" alt="Tournaments">
+                        <h3>Tournaments</h3>
+                        <p>We organize professional-level tournaments for cricket, football, and more. Complete with logistics, branding, and officiating.</p>
                     </div>
                 </div>
+
+
 
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Masters Sports Shop. All rights reserved.</p>
-        </div>
-    </footer>
+    <div id="footer-placeholder"></div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Load Navbar & Footer -->
+    <script>
+        function loadHTML(selector, url) {
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) throw new Error(`Error loading ${url}`);
+                    return response.text();
+                })
+                .then(data => {
+                    document.querySelector(selector).innerHTML = data;
+                })
+                .catch(err => console.error(`Failed to load ${url}: ${err}`));
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            loadHTML('#navbar-placeholder', 'navbar.html');
+            loadHTML('#footer-placeholder', 'footer.html');
+        });
+    </script>
 </body>
 </html>
